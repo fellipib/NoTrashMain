@@ -4,6 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".M">
+    tools:context=".MoradorActivity">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="229dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
