@@ -8,48 +8,62 @@
 
     <Button
         android:id="@+id/btnNextMorador"
-        android:layout_width="260dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="62dp"
-        android:layout_marginBottom="53dp"
+        android:layout_width="254dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="loginMorador"
         android:text="SOU MORADOR"
-        app:layout_constraintBottom_toTopOf="@+id/btnSindico"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnSindico"
-        android:layout_width="260dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="60dp"
+        android:layout_width="254dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="loginCondominio"
         android:text="SOU SINDICO"
-        app:layout_constraintBottom_toTopOf="@+id/txtSite"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnNextMorador" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="229dp"
         android:layout_height="167dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="19dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnNextMorador"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078"
         tools:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/txtSite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="82dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Quem somos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSindico" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
 </androidx.constraintlayout.widget.ConstraintLayout>

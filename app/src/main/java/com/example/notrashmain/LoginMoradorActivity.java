@@ -26,4 +26,10 @@ public class LoginMoradorActivity extends AppCompatActivity{
         startActivity(intent);
 
     }
+
+    public void doLoginMorador(View view){
+        Intent intent = new Intent(LoginMoradorActivity.this, MoradorActivity.class);
+        startActivity(intent);
+
+    }
 }
